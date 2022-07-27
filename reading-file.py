@@ -30,3 +30,12 @@ data = fhr.read(10)
 print(data)
 fhr.close()
 
+
+# simplifying the for loop example
+fhr = open("data.txt", "r")
+for line in fhr:
+    print(line, end="")
+fhr.close()
+
+
+
