@@ -16,3 +16,4 @@ data = fhr.read()
 print("After Writing: ")
 print(data)
 fhr.close()
+
