@@ -16,3 +16,17 @@ for line in list_var:
     print(line, end="")
 fhr.close()
 
+
+# reading the whole document but using the read method
+fhr = open("data.txt", "r")
+data = fhr.read()
+print(data)
+fhr.close()
+# so much easier
+
+# you can limit the size of it, read only the first 10 characters
+fhr = open("data.txt", "r")
+data = fhr.read(10)
+print(data)
+fhr.close()
+
